@@ -1,0 +1,136 @@
+p{
+font-size:18px;
+color:#4B0082;
+text-align:left; 
+text-indent:1cm;
+tab-size:0;
+text-align-last:auto;
+word-spacing:initial;
+letter-spacing:normal;
+line-height:20px;
+text-shadow: #999999 0.5px 0.1px 0.1px;
+}
+.markers {
+margin: 0 0 20px 14px;
+padding: 0;
+}
+.markers li {
+list-style-image: url(4.png);
+margin: 7px 0;
+margin-left: 45px;
+}
+
+.popa{
+align:right;
+width:25%;
+height:47%;
+border:2px solid #4B0082; 
+border-radius: 10px; 
+box-shadow: 2px 1px 5px #999999; 
+float:right; 
+margin: 10px 10px 10px 0; 
+}
+.pot{
+align:center;
+width:45%;
+height:40%;
+border:2px solid #4B0082; 
+border-radius: 10px;  
+box-shadow: 2px 1px 5px #999999; 
+float:left;
+margin: 0px 10px 10px 0; 
+}
+.kot{
+align:center;
+width:45%;
+height:35%;
+border:3px solid #4B0082; 
+box-shadow: 2px 1px 5px #999999; 
+border-radius: 10px;  
+margin: 10px 10px 10px 0; 
+}
+div {
+text-align: center;
+}
+table {
+border-collapse: collapse; 
+border: 1px solid #4B0082; 
+}
+th, td {
+font-size:18px;
+border: 2px solid #4B0082;
+}
+caption {
+caption-side: top;
+text-align: center;
+padding: 10px 0;
+font-size: 18px;
+}
+body {
+background-color: #E0FFFF
+}
+h1{
+align: center;
+font-size: 24px;
+color: #8B008B;
+font-family: "Roboto";
+font-style: bold
+}
+h2{
+font-size: 18px;
+color: #8B008B;
+font-family: "Roboto";
+font-style: bold
+}
+
+li{
+font-size: 18px;
+color: #000000;
+}
+@font-face {
+font-family: "Roboto";
+font-style: normal;
+font-weight: 400;
+font-display: swap;
+src: local("Roboto"),
+local("Roboto-Regular"),
+url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu5mxKOzY.woff2)
+format("woff2");
+unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+#ruby ul {
+display: none;
+background-color: #FF0000;
+position: absolute;
+top: 100%;
+}
+#ruby li:hover ul { display: block; }
+#ruby, #ruby ul {
+margin: 0;
+padding: 0;
+list-style-type: none;
+}
+#ruby {
+height: 60px;
+background-color: #800000;
+padding-left: 135px;
+min-width: 470px;
+}
+#ruby li {
+float: left;
+position: relative;
+height: 100%;
+}
+#ruby li a {
+display: block;
+padding: 6px;
+width: 190px;
+color: #FFFFFF;
+font-weight: bold;
+text-decoration: none;
+text-align: center;
+}
+#ruby ul li { float: none; }
+#ruby li:hover { background-color: #FF0000; }
+#ruby ul li:hover { background-color: #800000; }
