@@ -1,0 +1,29 @@
+<html>
+<head>
+ <style>
+    td {
+        font-size: 150%;
+	border: 2px solid grey;
+    }
+ </style>
+<body>
+ <script>
+    document.write('<center><h2>Таблица умножения</h2>');
+    document.write('<table valign=center border=1>');
+    document.write('<th>');
+    for(var j=0; j<11; j++){
+        document.write('<td width="10%" align=right><font color=red>'+j+'</font></td>');
+    }
+    document.write('</th><br>');
+    for(var i=0; i<11; i++){
+        document.write('<tr><td><font color=red>'+i+'</font></td>');
+        for(var j=0; j<11; j++){ 
+            document.write('<td width="10%" align=right>'+(i*j)+'</td>');
+        }
+        document.write('</tr>');
+    }
+    document.write('</table></center>');
+ </script>
+ </body>
+ </head>
+</html>
